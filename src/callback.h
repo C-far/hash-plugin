@@ -25,6 +25,8 @@
 using std::queue;
 using std::stack;
 
+#include <functional>
+#include <cstring>
 #include <variant>
 #include <thread>
 #include <atomic>
