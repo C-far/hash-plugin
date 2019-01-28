@@ -35,6 +35,7 @@ PLUGIN_EXPORT bool PLUGIN_CALL Load(void **ppData)
 	logprintf = (logprintf_t)ppData[PLUGIN_DATA_LOGPRINTF];
 
 	logprintf("[HASH] Plugin successfully loaded version %s (Compiled on %s, %s).", PLUGIN_VERSION, __DATE__, __TIME__);
+	logprintf("[HASH] Edited by C_far.");
 	return true;
 }
 
