@@ -3,14 +3,14 @@
     "repo": "hash-plugin",
     "resources": [
         {
-            "name": "^hash-plugin-(.*).rar$",
+            "name": "^hash-plugin-(.*).zip$",
             "platform": "linux",
             "archive": true,
             "includes": ["hash-plugin-(.*)"],
             "plugins": ["hash-plugin-(.*)/hash.so"]
         },
         {
-            "name": "^hash-plugin-(.*).rar$",
+            "name": "^hash-plugin-(.*).zip$",
             "platform": "windows",
             "archive": true,
             "includes": ["hash-plugin-(.*)"],
