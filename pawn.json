@@ -1,5 +1,5 @@
 {
-    "user": "Mellnik",
+    "user": "C-far",
     "repo": "hash-plugin",
     "resources": [
         {
@@ -18,6 +18,6 @@
         }
     ],
     "runtime": {
-        "plugins": ["Mellnik/hash-plugin"]
+        "plugins": ["C-far/hash-plugin"]
     }
 }
